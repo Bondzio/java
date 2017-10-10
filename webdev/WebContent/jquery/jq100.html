@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-3.2.1.js"></script>
+<script type="text/javascript">
+
+	var database=["1.JAVA","2.CHROME","3.SQL","4.JSP","5.SERVELET","6.JQUERY","7.ECLIPSE","8.EXPLORER","9.BK","10.PBK"];
+	var str;
+	var wrong=0;
+	var correct=0;
+	$(document).ready(function(){
+		pick();
+		$('#next').click(function(){
+			pick()
+		});
+
+		$('#correct').click(function(){
+			correct++;
+		});
+		
+		$('#wrong').click(function(){
+			wrong++;
+		});
+		
+		$('#end').click(function(){
+			alert('지금까지' + wrong + '문제 틀리고'+ wrong + '문제 맞추셨습니다');
+		});
+		
+	});
+				
+	function pick(){
+		var no=(parseInt(Math.random()*10));
+		$('#problem').text(database[no]);
+	} 
+
+			
+	
+</script>
+</head>
+<body>
+	<p id="problem"> </p>
+	<button id="next"> NEXT </button>
+	<button id="correct"> CORRECT </button>
+	<button id="wrong"> WRONG </button>
+	<button id="end"> END </button>
+</body>
+</html>

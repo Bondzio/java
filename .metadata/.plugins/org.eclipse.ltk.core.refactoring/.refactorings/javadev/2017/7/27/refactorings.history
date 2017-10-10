@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ano&apos; to &apos;anno&apos;&#x0D;&#x0A;- Original project: &apos;javadev&apos;&#x0D;&#x0A;- Original element: &apos;javadev/src/ano&apos;&#x0D;&#x0A;- Renamed element: &apos;javadev/src/anno&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ano&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ano" name="anno" qualified="false" references="true" stamp="1499150754883" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-3.2.1.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$('td').click(function(){
+			$(this).hide();			
+		});
+		
+		$('#ex1').click(function(){
+			$(this).hide();
+		});
+		
+		$('.ex2').click(function(){
+			$(this).hide();
+		});
+		
+		$('#sw1').click(function(){
+			$('td').fadeToggle();
+			$('.ex2').fadeToggle();
+			$('#ex1').fadeToggle();
+		});
+	});
+	
+
+</script>
+</head>
+<body>
+
+<table>
+<tr>
+	<td>1. 클릭하면 사라집니다.  </td>
+</tr>
+
+<tr>
+	<td>2. 클릭하면 사라집니다.  </td>
+</tr>
+
+<tr>
+	<td>3. 클릭하면 사라집니다.  </td>
+</tr>
+
+</table>
+
+<div id="ex1">  4.클릭하면 사라질까요?^^;;;;
+<img src="../img/sj.jpg">
+
+<button type="button">버튼 테스트 입니다. </button>
+
+</div>
+<div class="ex2">  4.클릭하면 사라질까요?^^;;;;</div>
+
+<input type="button" id="sw1" value="SHOW UP AGAIN">
+
+</body>
+</html>

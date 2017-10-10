@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function first_func() {
+	var str1 = document.getElementById('web1').innerText;
+	var str2 = document.getElementById('web2').innerText;
+	var str3 = document.getElementById('web3').innerText;
+	
+// 	alert(str);
+	console.log(str1); // 일반 유저들은 못 본다.
+	console.log(str2);
+	console.log(str3);
+}
+</script>
+</head>
+<body>
+	<div id="web1" onclick="alert('hello')"> hello web 1 </div>
+	<div id="web2" onclick="first_func()"> hello web 2 이라고만 쓰기에는 뭔가 아쉬워서 ㅎㅎㅎ</div>
+	<div id="web3" > hello web 3 </div>
+<hr/>
+	<span>hi~</span>
+	<span>hi~</span>
+	<span>hi~</span>
+</body>
+</html>

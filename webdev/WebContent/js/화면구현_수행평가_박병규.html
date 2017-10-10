@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<!--  
+
+	1. 버튼을 클릭하면 테스트 문장의 폰트크기와 색깔이 변경되도록 함수를 완성
+	2. 테스트 문장을 클릭하면 화면에서 사라지는 jQuery 활용 예제를 만들어 제출   
+
+-->
+
+<body>
+	
+<p id="demo"> TEST SENTENCE </p>
+<script>
+	function myfunction(){
+		document.getElementById('demo').style.color = 'red'; // 색깔 바꾸는 것 
+		document.getElementById('demo').style.fontSize = '100px'; // 폰트크기 바꾸는 것. 
+	}	
+
+	$(document).ready(function (){
+		$('#demo2').click(function(){
+			$(this).hide();
+		});
+	});					
+
+
+	
+</script>
+
+<button onclick="myfunction()"> Click me! </button>
+<br/>
+	1. 버튼을 클릭하면 테스트 문장의 폰트크기와 색깔이 변경되도록 함수를 완성
+<hr/>
+	2. 테스트 문장을 클릭하면 화면에서 사라지는 jQuery 활용 예제를 만들어 제출
+<div id="demo2" > <h1> 본 문장을 클릭하면 없어집니다. </h1></div>   
+
+</body>
+</html>

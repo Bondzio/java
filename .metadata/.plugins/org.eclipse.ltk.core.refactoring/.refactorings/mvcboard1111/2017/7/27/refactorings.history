@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;mvcboard/src/article.models&apos;&#x0D;&#x0A;- Original project: &apos;mvcboard1111&apos;&#x0D;&#x0A;- Destination element: &apos;mvcboard/src/article.models&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     article.models.ArticleVO.java&#x0D;&#x0A;     article.models.ArticleDAO.java&#x0D;&#x0A;     article.models.ArticleDAOImpl.java&#x0D;&#x0A;     database.properties" description="Copy elements" destination="=mvcboard/src&lt;article.models" element1="src/article/models/database.properties" element2="/src&lt;article.models{ArticleVO.java" element3="/src&lt;article.models{ArticleDAO.java" element4="/src&lt;article.models{ArticleDAOImpl.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1499307558325" units="3" version="1.0"/>
+</session>

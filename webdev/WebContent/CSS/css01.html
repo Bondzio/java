@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+@import url(style.css);
+
+</style>
+<script type="text/javascript">
+
+function process() {
+	document.getElementById('ex2').style.color='red';
+	document.getElementById('ex2').innerHTML='red';
+}
+
+</script>
+
+</head>
+<body>
+	<h1>CSS 연습</h1>
+	<div class="ex1" >이것저것 배우면서 CSS 연습 중....</div>
+	이것저것 배우면서 CSS 연습 중....
+	<div class="ex1" >이것저것 배우면서 CSS 연습 중....</div>
+	이것저것 배우면서 CSS 연습 중....
+	<div id="ex2">  ID EX2 - 이것저것 배우면서 CSS 연습 중....</div>
+	<div style="color:red"> 이것저것 배우면서 CSS 연습 중....</div>
+	<input type="button" value="클릭" onclick="process()" />
+</body>
+</html>

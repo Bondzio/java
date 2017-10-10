@@ -1,0 +1,21 @@
+package basic.exam;
+
+public class ConversionTest {
+	public static void main(String[] args) {
+//		double d = 10; // 자동형변환 (묵시적 형변환)
+//		System.out.println(d);
+//		
+//		int i = (int) 3.999414; // 강제형변환, 명시적형변환 
+//		System.out.println(i);
+//	
+//		int n=(int)(Math.random()*6) +1;
+//		System.out.println(n);
+//		
+//		int q=(int)(Math.random()*12) +4;
+//		System.out.println(q);
+				
+		int f=(((int)(Math.random()*17)) + 6)*100;
+		System.out.println(f);
+		
+	}
+}

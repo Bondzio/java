@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function shift_right() {
+		
+		var str = document.myform.ta1.value;
+// 		alert(document.myform.ta1.value);
+		console.log(str);
+
+		if (str !== '') {
+			document.myform.ta2.value = str;
+			document.myform.ta1.value = '';
+		}
+	}
+
+	function shift_left() {
+		var str = document.myform.ta2.value;
+		console.log(str);
+
+		if (str !== '') {
+			document.myform.ta1.value = str;
+			document.myform.ta2.value = '';
+		}
+	}
+</script>
+</head>
+
+<body>
+	<form name="myform">
+		<table>
+			<tr>
+				<td><textarea name="ta1" rows="10" cols="50"> 실수란 ... 신을 용서하는 인간의 행위인가 </textarea></td>
+				<td>
+					<button onclick="shift_right()" type="button">→ <br /></button> <br />
+					<button onclick="shift_left()" type="button">	← <br /></button> <br />
+					<input !type="image" src="../img/sj.jpg" width="50" onclick="shift_right()" />
+<!-- 					<input type="button" onclick="shift_right()" value="→">  -->
+<!-- 					<input type="button" onclick="shift_left()" value="←">  -->
+				</td>
+				<td><textarea name="ta2" rows="10" cols="50"> </textarea></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<title> DOCUMENT TEST </title>
+<script type="text/javascript" src="jquery-3.2.1.js"> </script>
+<script>
+$(document).ready(function(){
+		$('#ShowUp').click(function(){
+			$('#ex1').val('Hello');
+		});
+		
+		$('#ShowOff').click(function(){
+			$('#ex1').val('');
+		});
+});
+</script>
+
+</head>
+
+
+
+<body>
+	<button id="ShowUp"> ON </button>
+	<button id="ShowOff"> OFF </button>
+	<p id="ex1"> THIS IS A INITIALIZED VALUE WHEN STARTING UP </p>
+</body>
+
+</html>

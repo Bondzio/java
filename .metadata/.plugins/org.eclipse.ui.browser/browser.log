@@ -1,0 +1,498 @@
+
+6월 15, 2017 14:20:00.96 NEW SESSION
+6월 15, 2017 14:20:00.96 [6156:5040:0615/142000.961:ERROR:service_manager.cc(425)] InterfaceProviderSpec prevented connection from: content_utility to: content_browser
+6월 15, 2017 14:21:10.06 [6156:5040:0615/142110.066:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+6월 15, 2017 14:38:02.67 [6156:5040:0615/143802.678:ERROR:service_manager.cc(425)] InterfaceProviderSpec prevented connection from: content_utility to: content_browser
+6월 15, 2017 14:55:13.99 [6156:6620:0615/145513.997:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 15, 2017 14:55:39.36 [6156:6620:0615/145539.368:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 15, 2017 14:56:35.37 [6156:6620:0615/145635.374:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 15, 2017 15:52:13.40 [6156:7880:0615/155213.408:ERROR:tcp_socket_win.cc(837)] connect failed: 10013
+6월 15, 2017 16:10:43.64 [6156:5040:0615/161043.641:ERROR:http_request_headers.cc(149)] "X-DevTools-Emulate-Network-Conditions-Client-Id: 6a0abff8-e7d4-4458-a567-490d1db28bf7
+6월 15, 2017 16:10:43.64 ,6a0abff8-e7d4-4458-a567-490d1db28bf7" has invalid header value.
+
+6월 16, 2017 11:01:38.02 NEW SESSION
+6월 16, 2017 11:01:38.02 [9060:8336:0616/110138.016:ERROR:CONSOLE(355)] "Uncaught (in promise) TypeError: Cannot read property 'isXMLMimeType' of null", source: chrome-devtools://devtools/bundled/elements/elements_module.js (355)
+6월 16, 2017 11:39:36.22 [9060:6944:0616/113936.223:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 12:18:07.86 [9060:6944:0616/121807.866:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 12:37:13.19 [9060:6944:0616/123713.192:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 12:57:12.64 [9060:6944:0616/125712.648:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 12:57:40.41 [9060:6944:0616/125740.411:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 12:58:18.70 [9060:6944:0616/125818.703:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 13:43:42.84 [9060:6944:0616/134342.844:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 13:43:43.44 [9060:6944:0616/134343.439:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 15:06:20.58 [9060:6944:0616/150620.580:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 15:06:21.10 [9060:6944:0616/150621.103:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 15:17:22.96 [9060:6944:0616/151722.960:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 15:33:14.46 [9060:6944:0616/153314.467:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 16:09:42.10 [9060:8660:0616/160942.102:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+6월 16, 2017 16:09:56.02 [9060:8660:0616/160956.029:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+6월 16, 2017 16:09:59.32 [9060:8660:0616/160959.324:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+6월 16, 2017 16:09:59.38 [9060:8660:0616/160959.384:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+6월 16, 2017 16:10:08.70 [9060:8660:0616/161008.705:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+6월 16, 2017 16:27:03.88 [9060:6944:0616/162703.886:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 16, 2017 16:45:52.91 [9060:4496:0616/164552.916:ERROR:tcp_socket_win.cc(837)] connect failed: 10013
+
+6월 19, 2017 10:50:57.55 NEW SESSION
+6월 19, 2017 10:50:57.55 [3128:3968:0619/105057.552:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 11:15:39.22 [3128:7800:0619/111539.226:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+6월 19, 2017 11:15:39.22 [3128:7800:0619/111539.226:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+6월 19, 2017 11:15:39.22 [3128:7800:0619/111539.226:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+6월 19, 2017 12:18:14.21 [9664:9608:0619/121814.218:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 12:21:00.29 [9664:9608:0619/122100.296:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 12:21:18.65 [9664:9608:0619/122118.652:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 12:26:59.72 [9664:9608:0619/122659.722:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 12:27:42.48 [9664:9608:0619/122742.484:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 12:30:18.17 [9664:9608:0619/123018.174:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 12:30:38.75 [9664:9608:0619/123038.753:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 12:30:55.79 [9664:9608:0619/123055.790:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 13:01:21.14 [9664:9608:0619/130121.141:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 13:05:23.57 [9664:596:0619/130523.579:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+6월 19, 2017 14:12:00.53 [9664:9608:0619/141200.535:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 19, 2017 15:06:03.35 [9664:8248:0619/150603.353:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+6월 19, 2017 15:06:03.35 [9664:8248:0619/150603.353:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+6월 19, 2017 15:06:03.35 [9664:8248:0619/150603.353:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+
+6월 22, 2017 13:59:19.31 NEW SESSION
+6월 22, 2017 13:59:19.31 [5464:7356:0622/135919.310:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 22, 2017 13:59:20.86 [5464:7356:0622/135920.863:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 22, 2017 13:59:21.82 [5464:7356:0622/135921.826:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 22, 2017 13:59:23.05 [5464:7356:0622/135923.059:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 22, 2017 13:59:24.00 [5464:7356:0622/135924.002:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+
+6월 26, 2017 12:17:52.24 NEW SESSION
+6월 26, 2017 12:17:52.24 [4128:8636:0626/121752.240:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 26, 2017 12:18:19.24 [4128:8636:0626/121819.244:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 26, 2017 12:19:44.75 [4128:8636:0626/121944.753:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 26, 2017 12:26:39.54 [4128:8636:0626/122639.543:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+
+6월 27, 2017 13:55:02.78 NEW SESSION
+6월 27, 2017 13:55:02.78 [3532:9056:0627/135502.751:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+6월 27, 2017 16:00:53.26 [5472:9576:0627/160053.263:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 27, 2017 16:37:36.28 [9412:9420:0627/163736.288:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+
+6월 28, 2017 12:30:57.34 NEW SESSION
+6월 28, 2017 12:30:57.34 [7176:7920:0628/123057.339:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 28, 2017 12:30:59.92 [7176:7920:0628/123059.928:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+6월 28, 2017 12:33:32.10 [7176:7920:0628/123332.106:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+
+6월 29, 2017 10:04:34.06 NEW SESSION
+6월 29, 2017 10:04:34.06 [4708:7100:0629/100434.059:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+
+6월 29, 2017 14:22:45.47 NEW SESSION
+6월 29, 2017 14:22:45.47 [10140:9552:0629/142245.473:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+6월 29, 2017 14:22:45.47 [10140:9552:0629/142245.473:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\student\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\student\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+6월 29, 2017 14:22:45.47 [10140:9552:0629/142245.473:ERROR:disk_cache.cc(132)] Unable to create cache
+6월 29, 2017 14:22:45.47 [10140:9552:0629/142245.473:ERROR:shader_disk_cache.cc(604)] Shader Cache Creation failed: -2
+6월 29, 2017 14:42:46.35 [8776:5476:0629/144246.350:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+6월 29, 2017 14:42:58.09 [8776:8112:0629/144258.091:ERROR:simple_index_file.cc(272)] Failed to write the temporary index file
+6월 29, 2017 16:14:40.50 [10000:5352:0629/161440.500:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+
+7월 03, 2017 12:23:02.90 NEW SESSION
+7월 03, 2017 12:23:02.90 [8436:8904:0703/122302.895:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 03, 2017 12:23:34.61 [8436:8904:0703/122334.616:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 03, 2017 12:24:37.28 [8436:8904:0703/122437.280:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 03, 2017 12:24:55.17 [8436:5548:0703/122455.173:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+7월 03, 2017 12:24:55.17 [8436:5548:0703/122455.173:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+7월 03, 2017 12:24:55.17 [8436:5548:0703/122455.173:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+7월 03, 2017 12:25:15.05 [8436:8904:0703/122515.055:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 03, 2017 12:38:07.70 
+7월 03, 2017 12:38:07.70 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 13:59:32.18 [9860:6532:0703/135932.185:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+7월 03, 2017 14:23:02.34 
+7월 03, 2017 14:23:02.34 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 17:09:07.36 
+7월 03, 2017 17:09:07.40 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 17:10:28.54 
+7월 03, 2017 17:10:28.54 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 17:22:35.64 
+7월 03, 2017 17:22:35.64 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 17:48:53.61 
+7월 03, 2017 17:48:53.61 KLIB_SelfTest return : KLR_OK
+
+7월 04, 2017 11:22:51.35 NEW SESSION
+7월 04, 2017 11:22:51.35 
+7월 04, 2017 11:22:51.36 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:14:32.22 [4068:10028:0704/131432.222:ERROR:tcp_socket_win.cc(837)] connect failed: 10013
+7월 04, 2017 15:18:38.77 
+7월 04, 2017 15:18:38.77 KLIB_SelfTest return : KLR_OK
+
+7월 04, 2017 15:41:12.08 NEW SESSION
+7월 04, 2017 15:41:12.09 
+7월 04, 2017 15:41:12.09 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 15:57:16.67 
+7월 04, 2017 15:57:16.67 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 17:16:30.89 
+7월 04, 2017 17:16:30.90 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 17:34:17.08 
+7월 04, 2017 17:34:17.08 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 18:01:52.62 
+7월 04, 2017 18:01:52.63 KLIB_SelfTest return : KLR_OK
+
+7월 05, 2017 09:58:24.12 NEW SESSION
+7월 05, 2017 09:58:24.12 
+7월 05, 2017 09:58:24.15 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 09:59:05.30 
+7월 05, 2017 09:59:05.30 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 09:59:57.58 
+7월 05, 2017 09:59:57.58 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:04:30.47 
+7월 05, 2017 10:04:30.47 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:07:24.77 
+7월 05, 2017 10:07:24.77 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:15:13.26 
+7월 05, 2017 10:15:13.26 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:25:35.81 
+7월 05, 2017 10:25:35.81 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:32:51.34 
+7월 05, 2017 10:32:51.34 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:33:49.58 
+7월 05, 2017 10:33:49.58 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:39:38.22 
+7월 05, 2017 10:39:38.22 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:42:02.38 
+7월 05, 2017 10:42:02.38 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 11:44:38.82 
+7월 05, 2017 11:44:38.82 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 11:46:12.32 
+7월 05, 2017 11:46:12.32 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 12:24:46.74 
+7월 05, 2017 12:24:46.74 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 12:37:35.73 
+7월 05, 2017 12:37:35.74 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 12:44:09.86 
+7월 05, 2017 12:44:09.86 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 12:47:36.63 
+7월 05, 2017 12:47:36.63 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 12:48:42.33 
+7월 05, 2017 12:48:42.33 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 13:00:44.49 [7460:9896:0705/130044.496:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 05, 2017 13:00:49.30 [7460:9896:0705/130049.305:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 05, 2017 13:00:51.85 [7460:7808:0705/130051.853:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+7월 05, 2017 13:00:51.85 [7460:7808:0705/130051.853:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+7월 05, 2017 13:00:51.85 [7460:7808:0705/130051.853:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+7월 05, 2017 13:47:29.18 
+7월 05, 2017 13:47:29.18 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 14:40:29.92 [6312:10664:0705/144029.921:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 05, 2017 16:37:42.21 
+7월 05, 2017 16:37:42.21 KLIB_SelfTest return : KLR_OK
+
+7월 06, 2017 09:31:57.57 NEW SESSION
+7월 06, 2017 09:31:57.57 
+7월 06, 2017 09:31:57.57 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 10:19:39.58 
+7월 06, 2017 10:19:39.58 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 12:18:16.64 [9144:9364:0706/121816.643:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 06, 2017 12:19:57.54 [9144:9364:0706/121957.548:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 06, 2017 13:28:06.72 
+7월 06, 2017 13:28:06.72 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 13:30:39.58 
+7월 06, 2017 13:30:39.58 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 13:49:04.82 
+7월 06, 2017 13:49:04.82 KLIB_SelfTest return : KLR_OK
+
+7월 10, 2017 11:05:53.10 NEW SESSION
+7월 10, 2017 11:05:53.10 
+7월 10, 2017 11:05:53.11 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 11:28:34.04 
+7월 10, 2017 11:28:34.04 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 11:29:28.23 
+7월 10, 2017 11:29:28.23 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 11:29:32.29 [10736:11180:0710/112932.295:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 10, 2017 11:29:32.29 [10736:11180:0710/112932.296:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 10, 2017 11:29:32.29 [10736:11180:0710/112932.296:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 10, 2017 11:29:32.29 [10736:11180:0710/112932.296:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 10, 2017 11:29:32.29 [10736:11180:0710/112932.297:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 10, 2017 11:29:32.29 [10736:11180:0710/112932.297:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 10, 2017 11:30:19.93 
+7월 10, 2017 11:30:19.93 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 11:32:29.80 
+7월 10, 2017 11:32:29.80 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 13:24:49.12 
+7월 10, 2017 13:24:49.12 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 13:30:50.23 
+7월 10, 2017 13:30:50.23 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 13:34:42.46 
+7월 10, 2017 13:34:42.46 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 13:37:41.13 
+7월 10, 2017 13:37:41.13 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 13:45:26.71 
+7월 10, 2017 13:45:26.71 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 14:16:35.91 
+7월 10, 2017 14:16:35.91 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 14:19:11.86 
+7월 10, 2017 14:19:11.87 KLIB_SelfTest return : KLR_OK
+
+7월 10, 2017 15:27:31.98 NEW SESSION
+7월 10, 2017 15:27:31.98 [7620:7632:0710/152731.977:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7월 10, 2017 15:27:46.22 [7620:7632:0710/152746.219:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7월 10, 2017 15:28:22.42 
+7월 10, 2017 15:28:22.43 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 15:31:05.37 [10916:6612:0710/153105.373:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+7월 10, 2017 15:45:59.35 
+7월 10, 2017 15:45:59.35 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 15:51:35.13 
+7월 10, 2017 15:51:35.13 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 16:27:52.13 
+7월 10, 2017 16:27:52.13 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 17:02:24.35 [9556:8948:0710/170224.359:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 10, 2017 17:02:25.75 [9556:8948:0710/170225.756:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 10, 2017 17:06:27.85 
+7월 10, 2017 17:06:27.85 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 17:29:14.88 
+7월 10, 2017 17:29:14.88 KLIB_SelfTest return : KLR_OK
+
+7월 11, 2017 09:05:21.05 NEW SESSION
+7월 11, 2017 09:05:21.05 
+7월 11, 2017 09:05:21.06 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 09:06:15.59 
+7월 11, 2017 09:06:15.59 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 09:06:32.59 
+7월 11, 2017 09:06:32.59 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 09:17:43.16 
+7월 11, 2017 09:17:43.16 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 09:47:18.29 
+7월 11, 2017 09:47:18.29 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 09:47:59.54 
+7월 11, 2017 09:47:59.55 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 09:48:43.26 
+7월 11, 2017 09:48:43.26 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 09:48:59.38 
+7월 11, 2017 09:48:59.38 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 10:31:48.17 
+7월 11, 2017 10:31:48.18 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 10:34:56.69 
+7월 11, 2017 10:34:56.69 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 10:36:26.43 
+7월 11, 2017 10:36:26.43 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 10:38:27.92 
+7월 11, 2017 10:38:27.92 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 10:40:06.29 
+7월 11, 2017 10:40:06.29 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:14:54.10 
+7월 11, 2017 13:14:54.10 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 14:24:57.26 
+7월 11, 2017 14:24:57.26 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 15:25:19.22 
+7월 11, 2017 15:25:19.22 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 16:07:13.96 
+7월 11, 2017 16:07:13.96 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 16:12:03.97 
+7월 11, 2017 16:12:03.97 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 16:17:21.17 
+7월 11, 2017 16:17:21.17 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 16:22:41.74 
+7월 11, 2017 16:22:41.74 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 17:42:26.52 [4920:904:0711/174226.523:ERROR:tcp_socket_win.cc(837)] connect failed: 10013
+7월 11, 2017 17:43:34.97 
+7월 11, 2017 17:43:34.97 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 17:48:16.86 
+7월 11, 2017 17:48:16.87 KLIB_SelfTest return : KLR_OK
+
+7월 12, 2017 09:08:37.88 NEW SESSION
+7월 12, 2017 09:08:37.88 
+7월 12, 2017 09:08:37.88 KLIB_SelfTest return : KLR_OK
+7월 12, 2017 09:30:36.72 
+7월 12, 2017 09:30:36.72 KLIB_SelfTest return : KLR_OK
+7월 12, 2017 09:31:45.49 
+7월 12, 2017 09:31:45.49 KLIB_SelfTest return : KLR_OK
+7월 12, 2017 10:12:39.27 
+7월 12, 2017 10:12:39.27 KLIB_SelfTest return : KLR_OK
+7월 12, 2017 10:44:54.00 
+7월 12, 2017 10:44:54.00 KLIB_SelfTest return : KLR_OK
+7월 12, 2017 10:48:51.48 
+7월 12, 2017 10:48:51.48 KLIB_SelfTest return : KLR_OK
+7월 12, 2017 11:29:19.42 [9324:6840:0712/112919.425:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 11:29:22.67 [9324:6840:0712/112922.678:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 13:16:35.78 [7132:4204:0712/131635.789:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 13:16:37.87 [7132:4204:0712/131637.871:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 13:22:21.66 [7132:4204:0712/132221.667:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 13:22:21.80 [7132:4204:0712/132221.806:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 13:35:38.69 [7132:4204:0712/133538.692:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 13:35:38.81 [7132:4204:0712/133538.810:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 13:36:57.60 [7132:4204:0712/133657.604:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 13:37:49.02 [7132:4204:0712/133749.027:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+
+7월 20, 2017 09:44:34.34 NEW SESSION
+7월 20, 2017 09:44:34.34 
+7월 20, 2017 09:44:34.35 KLIB_SelfTest return : KLR_OK
+7월 20, 2017 10:16:12.29 
+7월 20, 2017 10:16:12.29 KLIB_SelfTest return : KLR_OK
+7월 20, 2017 10:41:23.59 
+7월 20, 2017 10:41:23.59 KLIB_SelfTest return : KLR_OK
+7월 20, 2017 11:09:50.07 
+7월 20, 2017 11:09:50.07 KLIB_SelfTest return : KLR_OK
+7월 20, 2017 11:37:04.20 
+7월 20, 2017 11:37:04.20 KLIB_SelfTest return : KLR_OK
+
+7월 24, 2017 13:46:28.38 NEW SESSION
+7월 24, 2017 13:46:28.38 
+7월 24, 2017 13:46:28.40 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 13:48:54.57 
+7월 24, 2017 13:48:54.57 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 13:49:27.33 
+7월 24, 2017 13:49:27.33 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 13:50:02.92 
+7월 24, 2017 13:50:02.93 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 13:50:32.37 
+7월 24, 2017 13:50:32.37 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 13:51:25.24 
+7월 24, 2017 13:51:25.24 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 13:55:51.06 
+7월 24, 2017 13:55:51.06 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 13:56:06.67 
+7월 24, 2017 13:56:06.67 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 13:58:57.62 
+7월 24, 2017 13:58:57.62 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 13:59:10.76 
+7월 24, 2017 13:59:10.76 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 14:48:57.39 
+7월 24, 2017 14:48:57.39 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 16:19:40.86 [9472:9596:0724/161940.867:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 24, 2017 16:19:41.50 [9472:9596:0724/161941.502:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 24, 2017 16:20:49.07 [9472:9596:0724/162049.074:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 24, 2017 16:20:50.66 [9472:9596:0724/162050.661:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 24, 2017 16:26:56.14 
+7월 24, 2017 16:26:56.14 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 16:33:27.30 
+7월 24, 2017 16:33:27.30 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 16:43:45.30 
+7월 24, 2017 16:43:45.30 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 16:48:00.12 
+7월 24, 2017 16:48:00.12 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 17:23:18.25 [9136:8616:0724/172318.251:ERROR:tcp_socket_win.cc(837)] connect failed: 10013
+
+7월 24, 2017 18:21:24.28 NEW SESSION
+7월 24, 2017 18:21:24.28 
+7월 24, 2017 18:21:24.28 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 18:39:08.58 
+7월 24, 2017 18:39:08.58 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 18:39:34.40 
+7월 24, 2017 18:39:34.40 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 18:47:06.91 
+7월 24, 2017 18:47:06.91 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 18:48:00.53 
+7월 24, 2017 18:48:00.53 KLIB_SelfTest return : KLR_OK
+7월 24, 2017 19:03:46.67 
+7월 24, 2017 19:03:46.67 KLIB_SelfTest return : KLR_OK
+
+7월 25, 2017 11:17:14.04 NEW SESSION
+7월 25, 2017 11:17:14.04 
+7월 25, 2017 11:17:14.04 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 11:18:48.01 [7220:7588:0725/111848.017:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+7월 25, 2017 11:21:36.42 
+7월 25, 2017 11:21:36.42 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 11:26:46.51 
+7월 25, 2017 11:26:46.51 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 11:44:31.91 
+7월 25, 2017 11:44:31.91 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 11:47:01.58 
+7월 25, 2017 11:47:01.58 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 12:02:14.13 [11032:11940:0725/120214.133:ERROR:tcp_socket_win.cc(837)] connect failed: 10013
+7월 25, 2017 14:43:01.76 [11032:11940:0725/144301.768:ERROR:tcp_socket_win.cc(837)] connect failed: 10013
+7월 25, 2017 16:25:26.07 
+7월 25, 2017 16:25:26.07 KLIB_SelfTest return : KLR_OK
+
+7월 25, 2017 16:35:40.19 NEW SESSION
+7월 25, 2017 16:35:40.19 
+7월 25, 2017 16:35:40.20 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 16:36:45.73 [3612:9832:0725/163645.736:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+7월 25, 2017 16:36:45.73 [3612:9832:0725/163645.736:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\student\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\student\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 25, 2017 16:36:45.73 [3612:9832:0725/163645.736:ERROR:disk_cache.cc(132)] Unable to create cache
+7월 25, 2017 16:36:45.73 [3612:9832:0725/163645.736:ERROR:shader_disk_cache.cc(604)] Shader Cache Creation failed: -2
+7월 25, 2017 16:36:47.49 
+7월 25, 2017 16:36:47.49 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 16:36:56.50 
+7월 25, 2017 16:36:56.50 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 16:37:12.90 
+7월 25, 2017 16:37:12.90 KLIB_SelfTest return : KLR_OK
+
+7월 25, 2017 16:52:09.37 NEW SESSION
+7월 25, 2017 16:52:09.37 
+7월 25, 2017 16:52:09.37 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 16:52:24.05 
+7월 25, 2017 16:52:24.05 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 16:55:20.30 
+7월 25, 2017 16:55:20.30 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 16:59:03.07 
+7월 25, 2017 16:59:03.07 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 17:04:52.65 
+7월 25, 2017 17:04:52.65 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 17:13:14.52 
+7월 25, 2017 17:13:14.52 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 17:25:45.64 
+7월 25, 2017 17:25:45.64 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 17:27:40.85 
+7월 25, 2017 17:27:40.85 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 17:37:02.81 
+7월 25, 2017 17:37:02.81 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 17:46:53.62 
+7월 25, 2017 17:46:53.62 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 17:50:29.62 
+7월 25, 2017 17:50:29.62 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 17:54:09.63 
+7월 25, 2017 17:54:09.63 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 18:09:37.53 
+7월 25, 2017 18:09:37.53 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 18:17:04.53 
+7월 25, 2017 18:17:04.53 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 18:19:00.90 
+7월 25, 2017 18:19:00.90 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 18:40:11.44 
+7월 25, 2017 18:40:11.44 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 18:51:51.51 
+7월 25, 2017 18:51:51.51 KLIB_SelfTest return : KLR_OK
+7월 25, 2017 18:52:44.03 
+7월 25, 2017 18:52:44.03 KLIB_SelfTest return : KLR_OK
+
+7월 26, 2017 09:54:14.74 NEW SESSION
+7월 26, 2017 09:54:14.74 [6804:10072:0726/095414.742:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 26, 2017 10:01:17.11 [6804:10072:0726/100117.116:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+
+7월 26, 2017 12:51:02.30 NEW SESSION
+7월 26, 2017 12:51:02.30 [8540:1448:0726/125102.304:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 26, 2017 12:52:07.87 [8540:1448:0726/125207.876:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 26, 2017 13:36:47.13 
+7월 26, 2017 13:36:47.14 KLIB_SelfTest return : KLR_OK
+7월 26, 2017 14:45:17.85 
+7월 26, 2017 14:45:17.85 KLIB_SelfTest return : KLR_OK
+7월 26, 2017 14:49:40.73 
+7월 26, 2017 14:49:40.73 KLIB_SelfTest return : KLR_OK
+7월 26, 2017 14:51:46.29 
+7월 26, 2017 14:51:46.29 KLIB_SelfTest return : KLR_OK
+7월 26, 2017 14:56:22.71 
+7월 26, 2017 14:56:22.71 KLIB_SelfTest return : KLR_OK
+7월 26, 2017 15:29:26.11 
+7월 26, 2017 15:29:26.11 KLIB_SelfTest return : KLR_OK
+7월 26, 2017 15:51:12.43 
+7월 26, 2017 15:51:12.43 KLIB_SelfTest return : KLR_OK
+7월 26, 2017 15:53:11.61 
+7월 26, 2017 15:53:11.61 KLIB_SelfTest return : KLR_OK
+
+7월 26, 2017 16:11:12.38 NEW SESSION
+7월 26, 2017 16:11:12.38 
+7월 26, 2017 16:11:12.38 KLIB_SelfTest return : KLR_OK
+7월 26, 2017 16:45:28.55 
+7월 26, 2017 16:45:28.55 KLIB_SelfTest return : KLR_OK
+7월 26, 2017 16:51:21.05 [1344:5132:0726/165121.056:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 26, 2017 16:52:32.44 
+7월 26, 2017 16:52:32.44 KLIB_SelfTest return : KLR_OK
+
+7월 26, 2017 19:43:23.84 NEW SESSION
+7월 26, 2017 19:43:23.84 
+7월 26, 2017 19:43:23.84 KLIB_SelfTest return : KLR_OK
+
+7월 27, 2017 14:23:28.12 NEW SESSION
+7월 27, 2017 14:23:28.12 [8600:2568:0727/142328.103:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+7월 27, 2017 14:28:54.63 [8600:6356:0727/142854.636:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+
+7월 28, 2017 17:36:30.24 NEW SESSION
+7월 28, 2017 17:36:30.24 [10620:7324:0728/173630.238:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+
+8월 04, 2017 16:24:10.31 NEW SESSION
+8월 04, 2017 16:24:10.31 
+8월 04, 2017 16:24:10.33 KLIB_SelfTest return : KLR_OK
+8월 04, 2017 16:41:38.27 
+8월 04, 2017 16:41:38.27 KLIB_SelfTest return : KLR_OK
+
+8월 09, 2017 10:50:44.27 NEW SESSION
+8월 09, 2017 10:50:44.27 [8144:7848:0809/105044.261:ERROR:audio_manager_base.cc(261)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0

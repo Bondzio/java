@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+h2 {font-size:15px;
+	color:grey;
+	}
+
+/* div {margin:5px 10px 5px 10px;} */
+
+a:link {text-decoration: none; color: grey;}
+a:visited {text-decoration: none; color: grey;}
+a:active {text-decoration: none; color: grey;}
+a:hover {text-decoration: none; color: black; font-weight:700;}
+
+
+table {
+	width:95%;
+	align:center;
+    font-family:arial;
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+  	/* margin : 20px 10px; */
+}
+table th {
+    /* width: 150px; */
+    background-color:rgb(235,235,235);   
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+table td {
+    /* width: 350px; */
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+table caption {
+	padding : 10px;
+}
+
+	table td.no		{width:10%;}
+	table td.name	{width:20%;}
+	table td.title	{width:30%;cursor:pointer;}	
+	table td.date	{width:20%;}
+	table td.view	{width:10%;}
+	
+textarea {width:95%;}
+		
+
+@media (min-width:320px) and (max-width: 414px)  {
+	body  			{font-size:12px;}
+	input[type="text"] {width:95%;}
+	input[type="password"] {width:95%;}
+	}
+
+@media  (min-width: 415px) and (max-width:767px ) {
+	body 			{font-size:15px;}	
+	input[type="text"] {width:75%;}
+	input[type="password"] {width:75%;}
+}
+@media (min-width: 768px)  {
+	body  			{font-size:17px;}
+	input[type="text"] {width:50%;}
+	input[type="password"] {width:50%;}		
+}

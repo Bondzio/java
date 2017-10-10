@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;mvcboard_self&apos;&#x0D;&#x0A;- Original project: &apos;mvcboard_self&apos;&#x0D;&#x0A;- Original element: &apos;mvcboard_self/src/mvcboard_self&apos;" description="Delete element" element1="/src&lt;mvcboard_self" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1499672016753" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,3 @@
+nation,prod,year,sales
+Korea,Oracle,2015,4500
+Korea,MySQL,2015,1200

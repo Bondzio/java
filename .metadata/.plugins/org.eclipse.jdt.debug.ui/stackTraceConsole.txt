@@ -1,0 +1,2 @@
+System.out.print("더 주문하시겠습니까? >");
+			input = sc.nextLine().trim();

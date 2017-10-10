@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<title> BASEBALL GAME</title>
+<script type="text/javascript">
+	
+window.onload=function(){
+	alert('야구게임 시작 1~100까지의 숫자를 넣어서 맞추세요');
+}
+	var com = parseInt(Math.random() * 100) + 1;
+	var count = 0;
+	var you = 0;
+
+	function hit_number() {
+		you = document.getElementById('you').value;
+		count++;
+		if (com < you) {
+			alert('DOWN~!');
+		} else if (com > you) {
+			alert('UP!~');
+		} else {
+			alert('축하합니다~!!   ' + count + "번 만에 맞추셨습니다");
+		}
+	}
+	;
+</script>
+</head>
+
+<body>
+	<input type="number" value="50" id="you" max="100" min="1" />
+	<button type="button" onclick="hit_number()">확인</button>
+</body>
+
+</html>
