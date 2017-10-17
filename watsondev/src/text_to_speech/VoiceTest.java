@@ -8,7 +8,15 @@ import com.ibm.watson.developer_cloud.text_to_speech.v1.model.Voice;
 
 public class VoiceTest {
 	public static void main(String[] args) {
-		TextToSpeech service = new TextToSpeech("21de6d7b-21ba-4d7c-ac61-2121c7c3599e","XjJhaP65cNW4"); //By Constructor, it may be instanced as it looks.
+		
+		// updated 10th Oct 17'
+		/*{ 
+			  "url": "https://stream.watsonplatform.net/text-to-speech/api",
+			  "username": "eff925c7-a600-4580-85f1-fb5e47722215",
+			  "password": "BfLLXHTwIV8Z"
+			} */
+		
+		TextToSpeech service = new TextToSpeech("eff925c7-a600-4580-85f1-fb5e47722215","BfLLXHTwIV8Z"); //By Constructor, it may be instanced as it looks.
 		//service.setUsernameAndPassword("21de6d7b-21ba-4d7c-ac61-2121c7c3599e","XjJhaP65cNW4");
 				
 		ServiceCall call = service.getVoices();

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="384" key="RevertDialog.size.y"/>
 	<item value="631" key="ExportRemoteFolderDialog.location.x"/>
 	<item value="338" key="ExportRemoteFolderDialog.location.y"/>
+	<item value="143" key="passwordStores.location.y"/>
+	<item value="0" key="passwordStores.location.x"/>
+	<item value="578" key="RevertDialog.location.x"/>
+	<item value="249" key="RevertDialog.location.y"/>
+	<item value="398" key="HistoryTableProvider.SVNHistoryPage.Date"/>
+	<item value="384" key="RevertDialog.size.y"/>
 	<item value="525" key="RevertDialog.size.x"/>
 	<item value="317" key="HistoryTableProvider.SVNHistoryPage.Author"/>
+	<item value="541" key="passwordStores.size.y"/>
 	<item value="159" key="HistoryTableProvider.SVNHistoryPage.Revision"/>
-	<item value="578" key="RevertDialog.location.x"/>
+	<item value="1680" key="passwordStores.size.x"/>
 	<item value="418" key="ExportRemoteFolderDialog.size.x"/>
-	<item value="249" key="RevertDialog.location.y"/>
 	<item value="251" key="ExportRemoteFolderDialog.size.y"/>
 	<item value="794" key="HistoryTableProvider.SVNHistoryPage.Comment"/>
-	<item value="398" key="HistoryTableProvider.SVNHistoryPage.Date"/>
 	<section name="NewLocationWizard">
 		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
 			<item value="https://70.12.50.50/svn/m501"/>

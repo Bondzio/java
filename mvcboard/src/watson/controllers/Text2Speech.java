@@ -16,7 +16,7 @@ public class Text2Speech extends AbstractController{
 
 	@Override
 	public ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) {
-		TextToSpeech service = new TextToSpeech("21de6d7b-21ba-4d7c-ac61-2121c7c3599e","XjJhaP65cNW4");
+		TextToSpeech service = new TextToSpeech("eff925c7-a600-4580-85f1-fb5e47722215","BfLLXHTwIV8Z");
 		ServiceCall call = service.getVoices();
 		List<Voice> voices = (List<Voice>) call.execute();
 		

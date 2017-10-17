@@ -154,7 +154,7 @@
       
       
       
-      <Context docBase="watsondev" path="/watsondev" reloadable="true" source="org.eclipse.jst.jee.server:watsondev"/><Context docBase="OCP" path="/OCP" reloadable="true" source="org.eclipse.jst.jee.server:OCP"/></Host>
+      <Context docBase="watsondev" path="/watsondev" reloadable="true" source="org.eclipse.jst.jee.server:watsondev"/><Context docBase="OCP" path="/OCP" reloadable="true" source="org.eclipse.jst.jee.server:OCP"/><Context docBase="watsondev2" path="/dev" reloadable="true" source="org.eclipse.jst.jee.server:watsondev2"/><Context docBase="mvcboard" path="/mvcboard" reloadable="true" source="org.eclipse.jst.jee.server:mvcboard"/></Host>
     </Engine>
   </Service>
 </Server>

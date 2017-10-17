@@ -13,7 +13,7 @@
 	$(document).ready(function(){
 		$('#speak').click(function(){
 			$('#myaudio').stop();
-			$('#myaudio').attr('src','../Speaker?&' + $('#myform').serialize());					
+			$('#myaudio').attr('src','../speaker?&' + $('#myform').serialize());					
 			$('#myaudio').attr('autoplay', 'autoplay');					
 		});
 	});
