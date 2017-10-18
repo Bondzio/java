@@ -1,17 +1,19 @@
 package com.bkpark.pilot.controller;
 
-import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.NaturalLanguageUnderstanding;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.AnalysisResults;
@@ -21,13 +23,24 @@ import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.Fe
 
 @RestController
 public class ClassifierController {
-
+	@Autowired
+	private Text2SpeechDAOImpl service2;
+	
 	private static String username = "53d530da-ecad-413f-a057-c527405e6ce7";
 	private static String password = "83EwV4o8Xv7x";
 	
+	
+	@RequestMapping("display")
+	public ModelAndView display_voice() throws Exception {
+		List<Text2SpeechVO> list = service2.getText2SpeechList();
+		ModelAndView mav = new ModelAndView();
+		mav.addObject("list", list);
+		return mav;
+	}
+	
 	@RequestMapping(value = "classifier", method = RequestMethod.POST)
 	@ResponseBody
-	public Map classify(@RequestBody String content) throws UnsupportedEncodingException {
+	public Map classify(@RequestBody String content) throws Exception {
 		NaturalLanguageUnderstanding service = new NaturalLanguageUnderstanding(NaturalLanguageUnderstanding.VERSION_DATE_2017_02_27);
 		service.setUsernameAndPassword(username, password);
 		System.out.println(content);
@@ -59,25 +72,27 @@ public class ClassifierController {
 	            double disgust =  (Double) emotionGroup.get("disgust");
 	            double anger =  (Double) emotionGroup.get("anger");
 	            double fear =  (Double) emotionGroup.get("fear");
-	            
-	            System.out.println(joy);
-	            System.out.println(sadness);
-	            System.out.println(disgust);
-	            System.out.println(anger);
-	            System.out.println(fear);
-	           
-	            map.put("joy","joy\t" + joy);     
-	            map.put("sadness","sadness\t" + sadness);
-	            map.put("disgust", "disgust\t" + disgust);
-	            map.put("anger","anger\t" + anger);
-	            map.put("fear","fear\t" + fear);
-	            
+	            	            	           
+	            map.put("joy",joy);     
+	            map.put("sadness",sadness);
+	            map.put("disgust",disgust);
+	            map.put("anger",anger);
+	            map.put("fear",fear);
+	        
+	            Text2SpeechVO vo = new Text2SpeechVO();
+			 	vo.setAnger(anger);
+			 	vo.setDisgust(disgust);
+			 	vo.setFear(fear);
+			 	vo.setJoy(joy);
+			 	vo.setSadness(sadness);
+			 	vo.setText(content);
+			 	
+			 	service2.insertText2Speech(vo);
 
 	        } catch (ParseException e) {
 	            e.printStackTrace();
 	        }
-	
-				
+		 	
 		return map;
 	}
 }

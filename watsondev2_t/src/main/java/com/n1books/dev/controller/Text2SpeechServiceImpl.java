@@ -12,9 +12,7 @@ import com.ibm.watson.developer_cloud.text_to_speech.v1.model.AudioFormat;
 import com.ibm.watson.developer_cloud.text_to_speech.v1.model.Voice;
 
 @Component("service")
-public class Text2SpeechServiceImpl 
-	extends TextToSpeech
-	implements Text2SpeechService {
+public class Text2SpeechServiceImpl	extends TextToSpeech implements Text2SpeechService {
 	
 	@Autowired
 	//@Qualifier("ibatis")

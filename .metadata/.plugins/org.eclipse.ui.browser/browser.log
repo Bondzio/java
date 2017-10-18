@@ -510,3 +510,19 @@
 10월 10, 2017 17:49:17.87 [9892:3576:1010/174917.872:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
 10월 10, 2017 17:54:02.56 
 10월 10, 2017 17:54:02.57 KLIB_SelfTest return : KLR_OK
+
+10월 18, 2017 09:57:04.56 NEW SESSION
+10월 18, 2017 09:57:04.56 [8752:6876:1018/095704.560:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 18, 2017 10:01:16.77 
+10월 18, 2017 10:01:16.77 KLIB_SelfTest return : KLR_OK
+10월 18, 2017 10:01:52.92 [9544:6008:1018/100152.928:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 18, 2017 10:02:46.21 
+10월 18, 2017 10:02:46.21 KLIB_SelfTest return : KLR_OK
+10월 18, 2017 10:03:02.72 [9264:2200:1018/100302.725:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 18, 2017 10:09:41.69 [9264:9848:1018/100941.694:ERROR:ssl_client_socket_impl.cc(1129)] handshake failed; returned -1, SSL error code 1, net_error -100
+10월 18, 2017 10:09:45.74 [9264:9848:1018/100945.747:ERROR:ssl_client_socket_impl.cc(1129)] handshake failed; returned -1, SSL error code 1, net_error -100
+10월 18, 2017 10:09:46.03 [9264:9848:1018/100946.036:ERROR:ssl_client_socket_impl.cc(1129)] handshake failed; returned -1, SSL error code 1, net_error -100
+10월 18, 2017 10:09:52.71 [9264:9848:1018/100952.710:ERROR:ssl_client_socket_impl.cc(1129)] handshake failed; returned -1, SSL error code 1, net_error -101
+10월 18, 2017 10:09:52.71 [9264:9848:1018/100952.714:ERROR:ssl_client_socket_impl.cc(1129)] handshake failed; returned -1, SSL error code 1, net_error -101
+10월 18, 2017 10:09:58.27 [9264:9848:1018/100958.273:ERROR:ssl_client_socket_impl.cc(1129)] handshake failed; returned -1, SSL error code 1, net_error -101
+10월 18, 2017 14:44:49.00 [9264:8916:1018/144449.008:ERROR:tcp_socket_win.cc(836)] connect failed: 10013

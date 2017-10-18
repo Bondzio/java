@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
 <fullyQualifiedTypeName name="com.mongodb.MongoCredential"/>
 <fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="com.bkpark.pilot.controller.Text2SpeechDAOImpl"/>
+<fullyQualifiedTypeName name="com.bkpark.pilot.controller.Text2SpeechVO"/>
 </qualifiedTypeNameHistroy>
