@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
-<fullyQualifiedTypeName name="com.mongodb.MongoCredential"/>
-<fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
-<fullyQualifiedTypeName name="org.bson.Document"/>
-<fullyQualifiedTypeName name="com.bk.AirlinePerformanceParser"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.Context"/>
-<fullyQualifiedTypeName name="org.w3c.dom.Text"/>
-<fullyQualifiedTypeName name="mrdp.utils.MRDPUtils"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.Writable"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="mrdp.utils.HourLengthTuple"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.text_to_speech.v1.model.AudioFormat"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.text_to_speech.v1.util.WaveUtils"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.service.WatsonService"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.text_to_speech.v1.TextToSpeech"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
@@ -40,7 +29,6 @@
 <fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringJUnit4ClassRunner"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.Features"/>
@@ -56,8 +44,20 @@
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
 <fullyQualifiedTypeName name="com.bkpark.pilot.controller.Text2SpeechDAOImpl"/>
 <fullyQualifiedTypeName name="com.bkpark.pilot.controller.Text2SpeechVO"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.EmotionResult"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Select"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 </qualifiedTypeNameHistroy>

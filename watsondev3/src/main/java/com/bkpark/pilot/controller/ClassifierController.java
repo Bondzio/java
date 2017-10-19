@@ -33,8 +33,8 @@ public class ClassifierController {
 	@RequestMapping("display")
 	public ModelAndView display_voice() throws Exception {
 		List<Text2SpeechVO> list = service2.getText2SpeechList();
-		ModelAndView mav = new ModelAndView();
-		mav.addObject("list", list);
+		
+		ModelAndView mav = new ModelAndView("hello", "list", list);
 		return mav;
 	}
 	

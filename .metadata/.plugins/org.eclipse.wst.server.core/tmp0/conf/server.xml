@@ -154,9 +154,7 @@
       
       
       
-      <Context docBase="watsondev" path="/watsondev" reloadable="true" source="org.eclipse.jst.jee.server:watsondev"/><Context docBase="OCP" path="/OCP" reloadable="true" source="org.eclipse.jst.jee.server:OCP"/><Context docBase="watsondev2" path="/dev" reloadable="true" source="org.eclipse.jst.jee.server:watsondev2"/><Context docBase="mvcboard" path="/mvcboard" reloadable="true" source="org.eclipse.jst.jee.server:mvcboard">
-	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxTotal="10" maxWaitMillis="-1" name="jdbc/mydbcp" password="bigdata" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:xe" username="bigdata"/>
-</Context><Context docBase="watsondev2_t" path="/dev" reloadable="true" source="org.eclipse.jst.jee.server:watsondev2_t"/></Host>
+      <Context docBase="C:\dev\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\dev\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\watsondev3_t" path="/pilot" reloadable="true" source="org.eclipse.jst.jee.server:watsondev3_t"/></Host>
     </Engine>
   </Service>
 </Server>
