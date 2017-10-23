@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="mrdp.utils.HourLengthTuple"/>
-<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.text_to_speech.v1.model.AudioFormat"/>
-<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.text_to_speech.v1.util.WaveUtils"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.service.WatsonService"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.text_to_speech.v1.TextToSpeech"/>
@@ -30,7 +26,6 @@
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
 <fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.Features"/>
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.ConceptsOptions"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Select"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.conversation.v1.model.Context"/>
+<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.conversation.v1.model.MessageOptions"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
