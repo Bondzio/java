@@ -13,27 +13,27 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="n1book" key="selection"/>
+		<item value="joy" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="joy"/>
+			<item value="polite"/>
+			<item value="chat"/>
+			<item value="resource"/>
+			<item value="autofocus"/>
+			<item value="Dispat"/>
+			<item value="dispat"/>
+			<item value="style"/>
+			<item value="stylesheet"/>
+			<item value="annotation"/>
+			<item value="watson"/>
+			<item value="context"/>
 			<item value="n1book"/>
 			<item value="holder"/>
 			<item value="property"/>
-			<item value="spring test"/>
-			<item value="spring"/>
-			<item value="placeholder"/>
-			<item value="place"/>
-			<item value="dev"/>
-			<item value="pilot"/>
-			<item value="aop"/>
-			<item value="service"/>
-			<item value="text"/>
-			<item value="log"/>
-			<item value="확인"/>
-			<item value="Long"/>
 		</list>
 		<list key="replacehistory">
 			<item value="\&quot;"/>
@@ -50,7 +50,7 @@
 		<item value="293" key="DIALOG_WIDTH"/>
 		<item value="1|굴림|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|굴림" key="DIALOG_FONT_NAME"/>
 		<item value="360" key="DIALOG_HEIGHT"/>
-		<item value="1033" key="DIALOG_X_ORIGIN"/>
-		<item value="149" key="DIALOG_Y_ORIGIN"/>
+		<item value="1141" key="DIALOG_X_ORIGIN"/>
+		<item value="146" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

@@ -537,3 +537,8 @@
 10월 19, 2017 10:24:13.86 [9308:9440:1019/102413.868:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
 10월 19, 2017 10:27:14.24 [9308:9804:1019/102714.249:ERROR:audio_manager_base.cc(275)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
 10월 19, 2017 11:38:17.22 [9308:9804:1019/113817.223:ERROR:audio_manager_base.cc(275)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+
+10월 24, 2017 09:18:31.05 NEW SESSION
+10월 24, 2017 09:18:31.05 [7500:10212:1024/091831.051:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 24, 2017 11:20:42.59 
+10월 24, 2017 11:20:42.60 KLIB_SelfTest return : KLR_OK
