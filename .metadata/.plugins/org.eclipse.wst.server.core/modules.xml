@@ -7,5 +7,6 @@
   <module moduleId="org.eclipse.jst.jee.server:watsondev3" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:watsondev2" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:emailreader" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:thereader" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Chatbotbot" serverId="Tomcat v8.5 Server at localhost"/>
 </modules>
