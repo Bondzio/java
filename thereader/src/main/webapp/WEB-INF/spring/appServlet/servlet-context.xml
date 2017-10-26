@@ -41,20 +41,20 @@
 		<beans:property name="password" value="oracle" />
 	</beans:bean>
 	
-	<!-- Mybatis start 
+	<!-- Mybatis start -->
 	<beans:bean id="sqlSessionFactory" 
 	class="org.mybatis.spring.SqlSessionFactoryBean">
 		<beans:property name="dataSource" ref="dataSource" />
-		<beans:property name="typeAliasesPackage" value="com.n1books.pilot.nlu" />
+		<beans:property name="typeAliasesPackage" value="net.bkpark.tone" />
 	</beans:bean>
 	
 	<beans:bean id="nluDAOMybatis" 
 	class="org.mybatis.spring.mapper.MapperFactoryBean">
 		<beans:property name="sqlSessionFactory" ref="sqlSessionFactory" />
 		<beans:property name="mapperInterface" 
-		value="com.n1books.pilot.nlu.NLUDAO"/>
+		value="net.bkpark.tone.NLPDAO"/>
 	</beans:bean>
-	Mybatis end -->
+	<!-- Mybatis end -->
 	
 	
 </beans:beans>

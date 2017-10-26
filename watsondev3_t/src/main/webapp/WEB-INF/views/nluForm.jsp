@@ -37,11 +37,12 @@ $(document).ready(function(){
 			  					});
 		});
 });
+
 function barchar(val){
 	var w= parseInt(val * 100);
 	/* return '<img src="<c:url value="/resources/img/point_red.png" />" height="7" width=" '+ w + '"/>'; */
 	return '<img src="./resources/img/point_red.png" height="7" width=" '+ w + '"/>';
-}
+};
 </script>
 </head>
 <body>

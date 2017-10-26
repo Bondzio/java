@@ -5,8 +5,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- meta 정보의 http-equiv content-type text/html 등이 지정되지 않을 경우
-문자열의 ?가 쿼리스트링에서 특수문자로 변경 -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="<c:url value=""/>" />
 <title>Insert title here</title>
@@ -17,85 +15,78 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('button').click(function() {
+		$('#submit').click(function() {
 			let param = $('form').serialize();
+			
+			console.log('param1st stg' + param);
 			param = decodeURIComponent(param);
+			console.log('param2nd stg' + param);
 			watsonNLU(param);			
-		})
-	})
+		});		
+	});
 	
 	
 	function watsonNLU(param){
 		$.ajax({
-			url : "classifier",
+			url : "insertEmail",
 			type : "POST",
 			data : param,
-			contentType : "application/json; charset=UTF-8",
+			/* contentType : "application/json; charset=UTF-8", */
 			success : function(data) {
 				if(data != null) {
-						a="<table class='table'><thead><tr><th>JOY</th><th>SADNESS</th><th>DISGUST</th><th>ANGER</th><th>FEAR</th></tr></thead><tbody><tr>";
-						$.each( data, function( key, val ) {
-						a = a + "<td>" + val + "</td>";
-					});
-					a=a+"</tr></table>";
-					console.log(a); 
-					document.getElementById("result").innerHTML = a; 						 
-					} else{
-					alert('data is null');
-				}
-			},
-			error : function(request, status, error) {
-				console.log("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
+						a="<h4>입력하신 email 이 DB에 정상적으로 잘 저장 되었습니다.</h4>";
+						console.log(a); 
+						document.getElementById("result").innerHTML = a;
+				} 
 			}
-		})
-		
-		
-	}
+		});
+	};
 	
 </script>
 
 </head>
+
 <body>
-<form name="classify_form" method="post">
+<form name="form" method="post">
 	<div class="container">	
-		<div class="jumbotron" >
-				<h2> The reader - Email 읽어주는 로봇 </h2>
-				<p> email를 읽습니다. 분석합니다.</p>
-		</div>
-	</div>
-	<div class="container">
+		<div class="col-sm-10">
+	 		<h2> A Bot Reading Emails </h2>
+			<h4> Reading emails, analyzing personalities, retreiving insights for you. </h4>
+	 	</div>
+	 	<div class="col-sm-2"><img src="./resources/img/title.png" class="img-rounded" style="width:100%"></div>
 		<div class="form-group row">
 			<div class="col-xs-3">
 	    		<label for="ex1">sender</label>
-	    		<input class="form-control" id="ex1" type="text">
+	    		<input class="form-control" name="sender" type="text" value="bbk0529@gmail.com">
 	  		</div>
 	  		<div class="col-xs-2">
 	    		<label for="ex2">date</label>
-	    		<input class="form-control" id="ex2" type="text">
+	    		<input class="form-control" name="date" type="date">
 	  		</div>
 		  	<div class="col-xs-7">
 	    		<label for="ex3">subject</label>
-		    	<input class="form-control" id="ex3" type="text">
+		    	<input class="form-control" name="subject" type="text" value="untitle">
 	  		</div>
 		</div>
 		<div class="form-group row">
 			<div class="col-xs-12">
 				<label for="ex1">email contents</label>
-				<textarea class="form-control col-sm-5" name="content" rows="10">
-				Your email may be inserted herein.
-			</textarea>
+				<textarea class="form-control col-sm-5" name="text" rows="10">Your email may be inserted herein.</textarea>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-8"></div>
-			<div class="col-sm-2">		
-					<a href="home"></a><button type="button" class="btn btn-default btn-success btn-block"/>HOME</button></a>
+			<div class="col-sm-10"></div>
+			<div class="col-sm-1">		
+					<a href="./"><button type="button" id="home" class="btn btn-default""/>HOME</button></a>
 			</div>		
-			<div class="col-sm-2">		
-					<button type="button" class="btn btn-default btn-success btn-block"/>확인</button>
+			<div class="col-sm-1">		
+					<button id="submit" type="button" class="btn btn-default"/>확인</button>
 			</div>			
 		</div>
 	</div>
 </form>
+<div class="container" id="result">	
+</div>
+
 </body>
 </html>

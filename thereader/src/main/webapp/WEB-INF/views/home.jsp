@@ -36,19 +36,16 @@
 <div class="container">
 	
 	<div class="row">
-	<div class="col-sm-2">
-	</div>
-	<div class="col-sm-8">
- 		<img src="./resources/img/title.png" class="img-rounded" style="width:100%">
- 	</div>
- 	<div class="col-sm-2">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8"><img src="./resources/img/title.png" class="img-rounded" style="width:100%"></div>
+	 	<div class="col-sm-2"></div>
 	</div>
 
 	<div class="row">
 		<div class="col-sm-2"></div>
 		<div class="col-sm-2">
-			<h3>Listing Email</h3>
-			<p  name="list">bbk0529@gmail.com</p>
+			<a href="list"><h3>Listing Email</h3>
+			<p name="list">bbk0529@gmail.com</p></a>
 		</div>
 		<div class="col-sm-2">
 			<a href="insert"><h3>Manual Input</h3>

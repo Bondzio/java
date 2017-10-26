@@ -12,5 +12,4 @@ public interface NLUDAO {
 			+ "from tbl_nlu "
 			+ "order by no desc ")
 	List<EmotionVO> getList();
-
 }

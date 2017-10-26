@@ -5,120 +5,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- meta 정보의 http-equiv content-type text/html 등이 지정되지 않을 경우
-문자열의 ?가 쿼리스트링에서 특수문자로 변경 -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="<c:url value=""/>" />
 <title>Insert title here</title>
 <link rel="shortcut icon" href="/favicon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-	$(document).ready(function() {
-		$('button').click(function() {
-			let param = $('form').serialize();
-			param = decodeURIComponent(param);
-			watsonNLU(param);			
-		})
-	})
-	
-	
-	function watsonNLU(param){
-		$.ajax({
-			url : "classifier",
-			type : "POST",
-			data : param,
-			contentType : "application/json; charset=UTF-8",
-			success : function(data) {
-				if(data != null) {
-						a="<table class='table'><thead><tr><th>JOY</th><th>SADNESS</th><th>DISGUST</th><th>ANGER</th><th>FEAR</th></tr></thead><tbody><tr>";
-						$.each( data, function( key, val ) {
-						a = a + "<td>" + val + "</td>";
-					});
-					a=a+"</tr></table>";
-					console.log(a); 
-					document.getElementById("result").innerHTML = a; 						 
-					} else{
-					alert('data is null');
-				}
-			},
-			error : function(request, status, error) {
-				console.log("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
-			}
-		})
-		
-		
-	}
-	
-</script>
 
+</script>
 </head>
+
 <body>
-<form name="classify_form" method="post">
-<div class="container">	
-<div class="jumbotron" >
-		<h2> The reader - Email 읽어주는 로봇 </h2>
-		<p> email를 읽고 감정을 분석합니다. 
-			Sadness, Fear, Joy, Disgust, Joy			
-		</p>
-</div>
-</div>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-2">
-			<h3>sender</h3>
-			<p  name="sender">bbk0529@gmail.com</p>
-		</div>
-		<div class="col-sm-2">
-			<h3>date</h3>
-			<p  name="date">2017.10.25</p>
-		</div>
-		<div class="col-sm-8">
-			<h3>subject</h3>
-			<p  name="subject">It's been prepared for a test before starting.</p>
-		</div>			
-	<div class="row">
-		<div class="col-sm-12">
-			<h3>Text</h3>
-		</div>
+		<div class="col-sm-10">
+	 		<h2> A Bot Reading Emails </h2>
+			<h4> Reading emails, analyzing personalities, retreiving insights for you. </h4>
+	 	</div>
+	 	<div class="col-sm-2"><img src="./resources/img/title.png" class="img-rounded" style="width:100%"></div>
 	</div>
-	
-	<div class="row">
-		<div class="col-lg-12 col-sm-12">
-		<textarea class="form-control col-sm-5" name="content" rows="10">
-			Trump's latest travel ban order blocked
-4 hours ago
- From the section US & Canada Share this with Facebook Share this with Twitter Share this with Messenger Share this with Email Share
-Hanadi Al-Hai (R) welcomes her mother travelling from Jordan on a Yemeni passport in Los Angeles, California (June 29, 2017)Image copyrightREUTERS
-Image caption
-A woman (middle) travelling from Jordan on a Yemeni passport arrives in Los Angeles, California
-US President Donald Trump's latest bid to impose travel restrictions on citizens from eight countries entering the US has suffered a court defeat.
-A federal judge slapped a temporary restraining order on the open-ended ban before it could take effect this week.
-The policy targets Iran, Libya, Syria, Yemen, Somalia, Chad and North Korea, as well as some Venezuelan officials.
-Previous iterations of the ban targeted six Muslim-majority countries, but were checked by the Supreme Court.
-The state of Hawaii sued in Honolulu to block Mr Trump's third travel ban, which was set to go into effect early on Wednesday.
-It argued the president did not have the powers under federal immigration law to impose such restrictions.
-US District Judge Derrick Watson, who blocked Mr Trump's last travel ban in March, issued the new restraining order.
-		</textarea>
-		</div>
-	</div><br/>
+		
+	<table class="table table-hover">
+	    <thead>
+	    <tr>
+	    	<th></th>
+	    	<th>NO</th>
+			<th>SENDER</th>
+			<th>DATE</th>
+			<th>SUBJECT</th>
+			<!-- <th>TEXT</th> -->
+			<th>REMARK</th>
+		</tr>	
+		</thead>
+		<tbody>
+		<c:forEach items="${list}" var="vo">
+		<tr>
+			<td><input type="checkbox" name="ckbox"></td>
+	 
+			<td>${vo.no}</td>
+			<td>${vo.sender}</td>
+			<td>${vo.date}</td>
+			<td><a href="detail?no=${vo.no}">${vo.subject}</a></td>
+			<%-- <td><a href="detail?no=${vo.no}">${vo.text}</a></td> --%> 
+			<td>${vo.remark}</td>
 			
-		<div class="col-lg-2 col-sm-2">		
-			<button type="button" class="btn btn-default btn-success btn-block"/>확인</button>
-		</div>
-		
-		<div id="out">
-		</div>
-		<div id="result">
-		</div>
-		
+		</tr>
+		</c:forEach>
+		</tbody>
+	</table>
+	<div class="row">
+		<div class="col-sm-10"></div>
+		<div class="col-sm-1">		
+				<a href="./"><button type="button" id="home" class="btn btn-default""/>HOME</button></a>
+		</div>		
+		<div class="col-sm-1">		
+				<button id="submit" type="button" class="btn btn-default"/>확인</button>
+		</div>			
 	</div>
-</form>
-<div class="row">
-			<div class="col-lg-12 col-sm-12">
-			<li><a href="display">display voices</a><br/>
-</li></div></div>
+</div>
+		
+
+<div id="result"></div>
+
 </body>
 </html>
