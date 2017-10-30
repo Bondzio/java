@@ -45,15 +45,20 @@ public class HomeController {
 	@RequestMapping("list")
 	public void list(Model model){
 		List<EmailVO> list = new ArrayList<EmailVO>();		
+		String [] sender; 
+		Date [] emaildate;				
 		list=nlpService.getList();
-		System.out.println(list);
+		sender=nlpService.getSender();
+		emaildate=nlpService.getemaildate();				
 		model.addAttribute("list", list); 
+		model.addAttribute("sender", sender);
+		model.addAttribute("emaildate", emaildate);
 	}
 
 	@RequestMapping("detail") //insert view 
 	public ModelAndView detail(int no) {
 		EmailVO vo = nlpService.detail(no); 
-		return new ModelAndView("detail", "vo",vo);
+		return new ModelAndView("detail", "vo", vo);
 	}
 
 	
@@ -65,23 +70,33 @@ public class HomeController {
 	@RequestMapping("insertEmail")
 	@ResponseBody
 	public void insertEmail(EmailVO vo) {	
+		vo.setWordcount(nlpService.wordCount(vo.text));
 		nlpService.insertEmail(vo);
+		
+	}
+	
+	@RequestMapping("searchData")
+	public void searchData(Model model, String keyword) {
+		System.out.println(keyword);
+		List<EmailVO> list = new ArrayList<EmailVO>();		
+		String [] sender; 
+		Date [] emaildate;			
+		list=nlpService.searchData(keyword);
+		sender=nlpService.getSender();
+		emaildate=nlpService.getemaildate();				
+		model.addAttribute("list", list); 
+		model.addAttribute("sender", sender);
+		model.addAttribute("emaildate", emaildate);
 	}
 	
 	@RequestMapping("callWatson")
 	@ResponseBody
 	public List<Trait> callWatson(String text) {	
 		System.out.println("text : " + text);
-		
-		//PersonalityInsights service = new PersonalityInsights(PersonalityInsights.VERSION_DATE_2016_10_19);
 		PersonalityInsights service = new PersonalityInsights("2016-10-19");
 		service.setUsernameAndPassword("2f162f68-251f-47ba-af6f-8d0c50373425", "vWjm7tOnp6Au");
-		
 		ProfileOptions options = new ProfileOptions.Builder().text(text).build();
-		
-		/*Profile profile = service.getProfile(options).execute();*/
 		Profile profile = service.getProfile(options).execute();
-
 		return profile.getPersonality();
 	}
 	

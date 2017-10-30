@@ -5,14 +5,24 @@ import java.sql.Date;
 
 public class EmailVO implements Serializable {
 	int no;
+	int wordcount;
+	
+	public int getWordcount() {
+		return wordcount;
+	}
+	public void setWordcount(int wordcount) {
+		this.wordcount = wordcount;
+	}
+	String sender,subject,text,	remark;
+	Date date;
+	
 	public int getNo() {
 		return no;
 	}
 	public void setNo(int no) {
 		this.no = no;
 	}
-	String sender,subject,text,	remark;
-	Date date;
+	
 	public String getSender() {
 		return sender;
 	}
@@ -45,8 +55,8 @@ public class EmailVO implements Serializable {
 	}
 	@Override
 	public String toString() {
-		return "EmailVO [sender=" + sender + ", subject=" + subject + ", text=" + text + ", remark=" + remark
-				+ ", date=" + date + "]";
+		return "EmailVO [no=" + no + ", wordcount=" + wordcount + ", sender=" + sender + ", subject=" + subject
+				+ ", text=" + text + ", remark=" + remark + ", date=" + date + "]";
 	}
 	
 		

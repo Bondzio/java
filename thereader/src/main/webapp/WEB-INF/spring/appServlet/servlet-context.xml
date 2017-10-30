@@ -48,7 +48,7 @@
 		<beans:property name="typeAliasesPackage" value="net.bkpark.tone" />
 	</beans:bean>
 	
-	<beans:bean id="nluDAOMybatis" 
+	<beans:bean id="nlpDAOMybatis" 
 	class="org.mybatis.spring.mapper.MapperFactoryBean">
 		<beans:property name="sqlSessionFactory" ref="sqlSessionFactory" />
 		<beans:property name="mapperInterface" 
