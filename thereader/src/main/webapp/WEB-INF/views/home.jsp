@@ -44,7 +44,7 @@
 	<div class="row">
 		<div class="col-sm-2"></div>
 		<div class="col-sm-2">
-			<a href="list"><h3>Listing Email</h3>
+			<a href="searchdata?keyword="><h3>Listing Email</h3>
 			<p name="list">bbk0529@gmail.com</p></a>
 		</div>
 		<div class="col-sm-2">

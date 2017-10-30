@@ -15,7 +15,14 @@ public class EmailVO implements Serializable {
 	}
 	String sender,subject,text,	remark;
 	Date date;
+	String stringdate;
 	
+	public String getStringdate() {
+		return stringdate;
+	}
+	public void setStringdate(String stringdate) {
+		this.stringdate = stringdate;
+	}
 	public int getNo() {
 		return no;
 	}

@@ -27,19 +27,48 @@ $(document).ready(function() {
 			if ($('#keyword').val()=='') {
 					alert('please enter your keyword(s)');
 			}
-			/* else $(location).attr('href','searchData?keyword=' + $('#keyword').val()); */	
-			else $(location).attr('href','searchData?keyword=' + $('#keyword').val());
+			else 
+				$(location).attr('href','searchdata?keyword=' + $('#keyword').val());
 		}
 		
 	});
     
-    
     $("#search").click(function() {
-		console.log("button clicked");
-		console.log('searchData?keyword=' + $('#keyword').val());
 		$(location).attr('href','searchData?keyword=' + $('#keyword').val());		 
-		/* $(location).attr('href', 'http://stackoverflow.com') */
     });
+    
+    
+    $("#multidetail").click(function() {
+    	let param="";
+    	var i=0;
+		$(".chkclass :checked").each(function(){
+			param+=$(this).val() + ',';
+			i++;
+		});
+		if (i<2) { 
+			alert('Needs at least 2 emails for merging');
+		}	else {
+				$(location).attr('href','multidetail?param=' + param);
+	    	}
+    });
+    
+   /*  $("#multidetail").click(function() {
+		let param="";
+		$(".chkclass :checked").each(function(){
+			param+=$(this).val() + ',';
+		});
+		console.log(param);
+    	
+    	$.ajax({
+			url : "multidetail",
+			type : "POST",
+			data : 'param=' + param,
+			success : function (data){
+				console.log("parameter : " + param);
+				console.log("data : " + data);
+			}
+    	});    			
+    }); */
 });
 
 
@@ -49,14 +78,14 @@ $(document).ready(function() {
 <body>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-10">
-	 		<h2> A Bot Reading Emails </h2>
-			<h4> Reading emails, analyzing personalities, retreiving insights for you. </h4>
-	 	</div>
 	 	<div class="col-sm-2">
 	 		<a href="./">
 	 		<img src="./resources/img/title.png" class="img-rounded" style="width:100%">
 	 		</a>
+	 	</div>
+	 	<div class="col-sm-10">
+	 		<h2> A Bot Reading Emails </h2>
+			<h4> Reading emails, analyzing personalities, retreiving insights for you. </h4>
 	 	</div>
 	</div>
 		
@@ -90,40 +119,43 @@ $(document).ready(function() {
 			<th>DATE</th>
 			<th>SUBJECT</th>
 			<!-- <th>TEXT</th> -->
+			<th>WORDS</th>
 			<th>REMARK</th>
-			<th>WORDCOUNT</th>
 		</tr>
 		</thead>		
 		<tbody>
 		
-		<c:forEach items="${list}" var="list">
-		 <tr class='clickable-row' data-href='detail?no=${list.no}'>
-			<td><input type="checkbox" name="ckbox"></td>
+		 <c:forEach items="${list}" var="list">
+		 <tr class="chkclass">
+		 <%-- <tr class='clickable-row' data-href='detail?no=${list.no}'> --%>
+			<td><input type="checkbox" id="chk" value="${list.no}"></td>
 			<td>${list.no}</td>
 			<td>${list.sender}</td>
 			<td>${list.date}</td>
 			<td>${list.subject}</td>
 			<%-- <td><a href="detail?no=${vo.no}">${vo.text}</a></td> --%> 
-			<td>${list.remark}</td>
 			<td>${list.wordcount}</td>
+			<td>${list.remark}</td>
 		</tr>
 		</c:forEach>
 		</tbody>
 	</table>
 	<div class="row">
-		<div class="col-sm-1"></div>
-		<div class="col-sm-2">SENDER, SUBJECT, or TEXT</div>
-		<div class="col-sm-5"><input class="form-control" id="keyword" name="keyword" type="text" /></div>			
-		<div class="col-sm-1"><button id="search" class="btn btn-default">검색 </button></div>
-		<div class="col-sm-1">		
-				<a href="./"><button type="button" id="home" class="btn btn-default"/>HOME</button></a>
-		</div>		
-		<div class="col-sm-1">		
-				<button id="submit" type="button" class="btn btn-default"/>확인</button>
-		</div>			
-		<div class="col-sm-1"></div>
+		<div class="col-sm-2"></div>
+		<div class="col-sm-2">Sender, Subject, or Text for Search</div>
+		<div class="col-sm-4"><input class="form-control" id="keyword" name="keyword" type="text" /></div>			
+		<div class="col-sm-1"><button id="search" class="btn btn-default">SEARCH </button></div>
 	</div>
-</div>
+	<br/><br/><br/>
+	<div class="row">
+		<div class="col-sm-9"></div>	
+		<div class="col-sm-3">
+			<button id="submit" type="button" class="btn btn-default" onclick="javascript:history.back()"/>BACK</button>
+			<a href="./"><button type="button" id="home" class="btn btn-default"/>HOME</button></a>
+			<button type="button" id="multidetail" class="btn btn-default"/>MERGE</button></a>
+		</div>
+	</div>
 <div id="result"></div>
+
 </body>
 </html>

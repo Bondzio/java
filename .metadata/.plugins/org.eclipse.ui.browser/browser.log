@@ -654,3 +654,113 @@
 10월 26, 2017 17:49:33.48 [10752:10228:1026/174933.489:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
 10월 26, 2017 17:50:45.24 
 10월 26, 2017 17:50:45.24 KLIB_SelfTest return : KLR_OK
+
+10월 30, 2017 10:36:55.54 NEW SESSION
+10월 30, 2017 10:36:55.54 [3620:8968:1030/103655.543:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 10:45:16.08 [3620:2684:1030/104516.084:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 10:45:16.08 [3620:2684:1030/104516.084:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 10:45:16.08 [3620:2684:1030/104516.084:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 10:45:16.08 [3620:2684:1030/104516.085:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 10:45:16.08 [3620:2684:1030/104516.085:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 10:45:16.08 [3620:2684:1030/104516.085:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 10:45:16.08 [3620:2684:1030/104516.085:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 10:45:16.12 
+10월 30, 2017 10:45:16.12 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 10:45:29.46 [7740:9804:1030/104529.448:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 11:37:53.57 
+10월 30, 2017 11:37:53.57 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 11:38:05.62 [11068:10736:1030/113805.627:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 11:41:58.74 
+10월 30, 2017 11:41:58.74 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 11:42:21.56 [9628:9360:1030/114221.548:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 12:32:06.24 
+10월 30, 2017 12:32:06.24 KLIB_SelfTest return : KLR_OK
+
+10월 30, 2017 12:39:48.99 NEW SESSION
+10월 30, 2017 12:39:48.99 [2940:6752:1030/123948.999:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 12:40:16.44 
+10월 30, 2017 12:40:16.44 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 12:40:24.91 [344:9324:1030/124024.919:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 13:05:36.52 [344:8768:1030/130536.525:ERROR:audio_manager_base.cc(275)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+10월 30, 2017 13:30:43.72 
+10월 30, 2017 13:30:43.72 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 13:31:07.97 [10184:9632:1030/133107.970:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 13:38:19.48 
+10월 30, 2017 13:38:19.48 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 13:38:25.52 [11192:2944:1030/133825.525:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 13:46:33.24 
+10월 30, 2017 13:46:33.24 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 13:46:36.16 [5460:1028:1030/134636.160:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 14:06:31.80 
+10월 30, 2017 14:06:31.80 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 14:09:05.63 [10956:3380:1030/140905.630:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 14:16:00.47 
+10월 30, 2017 14:16:00.47 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 14:16:13.78 [10624:3656:1030/141613.785:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 14:18:15.69 
+10월 30, 2017 14:18:15.69 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 14:18:32.58 [8680:9532:1030/141832.581:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 14:38:06.44 
+10월 30, 2017 14:38:06.44 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 14:38:19.21 [6696:10952:1030/143819.215:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 14:38:57.48 
+10월 30, 2017 14:38:57.48 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 14:39:10.85 [9760:8916:1030/143910.858:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 14:39:37.92 
+10월 30, 2017 14:39:37.92 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 14:39:51.46 [1668:10560:1030/143951.461:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 14:40:36.80 
+10월 30, 2017 14:40:36.81 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 14:40:51.59 [10796:5144:1030/144051.592:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 14:42:20.84 
+10월 30, 2017 14:42:20.84 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 14:42:33.81 [9600:10748:1030/144233.813:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 14:49:19.82 
+10월 30, 2017 14:49:19.83 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 14:50:05.54 [8824:9712:1030/145005.546:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 15:33:58.17 [8824:8356:1030/153358.174:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 15:33:58.17 [8824:8356:1030/153358.174:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 15:33:58.17 [8824:8356:1030/153358.174:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 15:33:58.17 [8824:8356:1030/153358.174:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 15:33:58.17 [8824:8356:1030/153358.174:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 15:33:58.17 [8824:8356:1030/153358.174:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 15:33:58.17 [8824:8356:1030/153358.174:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 15:33:58.22 
+10월 30, 2017 15:33:58.22 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 15:34:11.54 [10216:10280:1030/153411.540:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 15:51:57.67 
+10월 30, 2017 15:51:57.67 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 15:52:10.78 [10500:6772:1030/155210.780:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 15:52:31.19 
+10월 30, 2017 15:52:31.19 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 15:52:33.63 [6876:5880:1030/155233.638:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 15:56:18.45 
+10월 30, 2017 15:56:18.45 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 15:56:32.47 [4392:8756:1030/155632.472:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 15:59:59.16 
+10월 30, 2017 15:59:59.16 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 16:00:11.87 [8772:9256:1030/160011.872:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 16:11:50.92 
+10월 30, 2017 16:11:50.92 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 16:12:05.22 [3940:7672:1030/161205.225:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 16:30:13.81 [3940:6068:1030/163013.817:ERROR:service_manager_context.cc(171)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\61.0.3163.100\content_browser.service.exe
+10월 30, 2017 16:30:13.85 
+10월 30, 2017 16:30:13.85 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 16:30:27.77 [9996:4236:1030/163027.776:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 16:31:34.04 
+10월 30, 2017 16:31:34.04 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 16:31:49.87 [3248:8696:1030/163149.871:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 17:16:46.57 
+10월 30, 2017 17:16:46.57 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 17:30:32.08 [9604:9908:1030/173032.081:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 17:31:14.53 
+10월 30, 2017 17:31:14.53 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 17:31:28.93 [9900:10300:1030/173128.936:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 17:43:52.89 
+10월 30, 2017 17:43:52.89 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 17:44:01.97 [10348:9724:1030/174401.978:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 17:46:05.14 
+10월 30, 2017 17:46:05.14 KLIB_SelfTest return : KLR_OK
+10월 30, 2017 17:46:19.83 [10232:11040:1030/174619.839:ERROR:external_registry_loader_win.cc(147)] File C:\Users\student\AppData\Local\Google\Drive\user_default\apdfllckaahabafndbhieahigkjlhalf_live.crx for key Software\Google\Chrome\Extensions\apdfllckaahabafndbhieahigkjlhalf does not exist or is not readable.
+10월 30, 2017 17:57:01.04 
+10월 30, 2017 17:57:01.04 KLIB_SelfTest return : KLR_OK

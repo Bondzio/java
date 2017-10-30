@@ -55,14 +55,14 @@ public class HomeController {
 		model.addAttribute("emaildate", emaildate);
 	}
 
-	@RequestMapping("detail") //insert view 
+	@RequestMapping("detail")
 	public ModelAndView detail(int no) {
 		EmailVO vo = nlpService.detail(no); 
 		return new ModelAndView("detail", "vo", vo);
 	}
 
 	
-	@RequestMapping("insert") //insert view 
+	@RequestMapping("insert") 
 	public void insert() {	
 	}
 	
@@ -75,7 +75,7 @@ public class HomeController {
 		
 	}
 	
-	@RequestMapping("searchData")
+	@RequestMapping("searchdata")
 	public void searchData(Model model, String keyword) {
 		System.out.println(keyword);
 		List<EmailVO> list = new ArrayList<EmailVO>();		
@@ -88,6 +88,20 @@ public class HomeController {
 		model.addAttribute("sender", sender);
 		model.addAttribute("emaildate", emaildate);
 	}
+	
+	@RequestMapping("multidetail")
+	public String multidetail(Model model, String param) {
+		String pk[] = param.split(",");
+		
+		List <EmailVO> list = new ArrayList<EmailVO>();
+		for (String a : pk) {
+			list.add(nlpService.detail(Integer.parseInt(a)));
+		}
+		System.out.println(list.toString());
+		model.addAttribute("list", list);
+		return "multidetail";
+	}
+	
 	
 	@RequestMapping("callWatson")
 	@ResponseBody
