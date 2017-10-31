@@ -13,27 +13,27 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="log" key="selection"/>
+		<item value="textarea" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="textarea"/>
+			<item value="TEXTAREA"/>
+			<item value="fmt"/>
+			<item value="&lt;br"/>
+			<item value="col-sm-3"/>
+			<item value="WORDNO"/>
+			<item value="검색"/>
+			<item value="keyword"/>
+			<item value="nlu"/>
+			<item value="detail"/>
+			<item value="vo."/>
 			<item value="log"/>
 			<item value="TEXT"/>
 			<item value="model"/>
 			<item value="jqxhr"/>
-			<item value="mybatis"/>
-			<item value="joy"/>
-			<item value="polite"/>
-			<item value="chat"/>
-			<item value="resource"/>
-			<item value="autofocus"/>
-			<item value="Dispat"/>
-			<item value="dispat"/>
-			<item value="style"/>
-			<item value="stylesheet"/>
-			<item value="annotation"/>
 		</list>
 		<list key="replacehistory">
 			<item value="\&quot;"/>

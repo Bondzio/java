@@ -159,7 +159,7 @@
 	<div class="row">
 			<br/><br/>
 			<div class="col-sm-12" style="text-align: center">
-				<button type="button" class="btn btn-default"/ id="callwatson"> WATSON</button></>
+				<button type="button" class="btn btn-primary"/ id="callwatson"> WATSON</button></>
 				<a href="./"><button type="button" id="home" class="btn btn-default""/>HOME</button></a>		
 				<button id="submit" type="button" class="btn btn-default" onclick="javascript:history.back()"/>BACK</button>
 			</div>			

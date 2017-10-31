@@ -61,40 +61,30 @@ $(document).ready(function(){
 	</div>
 </div>
 
-
-
-
 <div class="container">
-	
-	<%-- <div class="row">
-		<div class="col-sm-3 col-xs-3"></div>
-		<div class="col-sm-6 col-xs-6"><center><img src="./resources/img/title.png" class="img-rounded" style="width:100%"></center></div>
-	 	<div class="col-sm-3 col-xs-3"></div>
-	</div> --%>
-
 	<div class="row">
 		<div class="col-sm-2 col-xs-2"></div>
 		<div class="col-sm-2 col-xs-2" style="text-align: center;">
-			<img src="./resources/img/database.jpg" class="img-rounded" style="width:100%">
+			<img src="./resources/img/1.jpg" class="img-rounded" style="width:100%">
 			<a href="searchdata?keyword="><h3>DATABASE</h3>
 			<p name="list">bbk0529@gmail.com</p></a>
 		</div>
 		<div class="col-sm-2 col-xs-2" style="text-align: center;">
-			<img src="./resources/img/input.jpg" style="width:100%">
+			<img src="./resources/img/2.jpg" class="img-rounded" style="width:100%">
 			<a href="insert"><h3>INPUT</h3>
 			<p  name="insert">Input emails manually</p></a>
 		</div>
 		<div class="col-sm-2 col-xs-2" style="text-align: center;">
-			<img src="./resources/img/import.jpg" class="img-rounded" style="width:100%">
+			<img src="./resources/img/3.jpg" class="img-rounded" style="width:100%">
 			<h3  >IMPORTING</h3>
 			<p  name="summary">Scrapping your emails</p>
 		</div>
 		<div class="col-sm-2 col-xs-2" style="text-align: center;">
-			<img src="./resources/img/summary.jpg" class="img-rounded" style="width:100%">
+			<img src="./resources/img/4.jpg" class="img-rounded" style="width:100%">
 			<h3>SUMMARY</h3>
 			<p  name="detail">Summary of Analysis</p>
 		</div>		
-	</div>	
+	</div>
 </div>
 
 <div id="chart"></div>

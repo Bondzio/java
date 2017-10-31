@@ -49,7 +49,6 @@
 <fullyQualifiedTypeName name="net.bkpark.tone.NLPService"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.language_translator.v2.util.Language"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.personality_insights.v3.model.ContentItem.Language"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.KeywordsOptions"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.personality_insights.v3.model.Language"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.personality_insights.v3.model.Profile"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
 </qualifiedTypeNameHistroy>
