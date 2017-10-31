@@ -32,50 +32,6 @@
 		}
 	})
 	
-	function children(data){
-		var a='';
-		a +="<div class='container'><div class='row'><div class='col-xs-12'>";
-		a +="<table class='table'>";
-		a +="<thead><th>PERSONALITY</th><th>PERCENTILE</th><th>GRAPH</th></thead>";
-		a +="<tbody>";
-		
-		var cur=0;
-		$.each(data, function(key, val) {
-				cur++;
-				$.each(val, function(key, val) {
-					if(key=="name"){
-						a +="<tr>";
-						if (cur%7==1) {
-							a +="<td><b>" +  val + "</b></td>";	
-						} else {
-							a +="<td>" + "_____" + val + "</td>";
-						}
-					};
-					if( key=="percentile"){
-						a +="<td>" + val + "</td>";
-						a += "<td>";				
-						if (cur%7==1) {
-							a +=barchart_blue(val);
-						} else {	
-							a +=barchart(val);
-						}
-						a +="</td></tr>";
-					};
-				});
-		});
-		a +="</tbody></table></div></div></div>";		
-		return a;
-	};
-	
-	function barchart(val){
-		var w= parseInt(val * 200);
-		return '<img src="./resources/img/point_red.png" height="7" width=" '+ w + '"/>';
-	};
-	
-	function barchart_blue(val){
-		var w= parseInt(val * 200);
-		return '<img src="./resources/img/point_blue.png" height="10" width=" '+ w + '"/>';
-	};
 	
 	function watsonNLU(text){
 		$.ajax({
@@ -85,8 +41,54 @@
 			success : function(data) {
 				if(data != null) {
 					console.log(data);
-					var a='';
-					a=children(data);					
+					a="<table class='table'><thead><tr>";
+					$.each( data, function( key, val ) {
+						$.each(val, function(key, val) {
+							a +="<th>" + key + "</th>";							
+						});
+						a +="</tr></thead>";
+						
+						a +="<tbody><tr>";
+						$.each(val, function(key, val) {
+							a +="<td>" + val + "</td>";
+							if(key=='children') {
+								a +="<table class='table'><thead><tr>";
+								$.each(val, function(key, val) {
+									a +="<th>" + key + "</th>";	
+								});
+								a +="</tr></thead>";
+								
+								a +="<tbody><tr>";
+								$.each(val, function(key, val) {
+									a +="<td>" + val + "</td>";	
+									a +="<tbody><tr>";
+									$.each(val, function(key, val) {
+										a +="<td>" + val + "</td>";
+										if(key=='children') {
+											a +="<table class='table'><thead><tr>";
+											$.each(val, function(key, val) {
+												a +="<th>" + key + "</th>";	
+											});
+											a +="</tr></thead>";
+											
+											a +="<tbody><tr>";
+											$.each(val, function(key, val) {
+												a +="<td>" + val + "</td>";	
+											});
+											a +="</tr>";
+										};
+									
+									});
+									a+="</tr>";
+								});
+								a +="</tr>";
+							};
+						
+						});
+						a+="</tr>";
+					});
+					a+="</tbody></table>";
+					
 					console.log(a); 
 					document.getElementById("result").innerHTML = a;
 					
@@ -117,6 +119,7 @@
 	 		</a>
 	 	</div>
 		</div>
+</div>
 </div>
 <div class="container">
 	<div class="row">
@@ -151,15 +154,19 @@
 			<div class="col-lg-3 col-sm-3" id="wordcount"></div>
 			<div class="col-lg-8 col-sm-9" id="comment"></div>
 		</div>
-				
-		
-		
+		<div class="row">
+			<div class="col-lg-5 col-sm-5"></div> 
+			<div class="col-lg-2 col-sm-2">		
+					<button type="button" class="btn btn-default"/ id="callwatson"> CALL WATSON</button></>
+			</div>
+			<div class="col-lg-5 col-sm-5"></div>
+		</div>
 	</div>
 	</div>	
 	<div class="row">
-			<br/><br/>
-			<div class="col-sm-12" style="text-align: center">
-				<button type="button" class="btn btn-default"/ id="callwatson"> WATSON</button></>
+			<div class="col-sm-8"></div>
+			<div class="col-sm-4">
+				<button id="submit" type="button" class="btn btn-default"/>CONFIRM</button>
 				<a href="./"><button type="button" id="home" class="btn btn-default""/>HOME</button></a>		
 				<button id="submit" type="button" class="btn btn-default" onclick="javascript:history.back()"/>BACK</button>
 			</div>			
@@ -169,7 +176,6 @@
 		
 <form name="classify_form" method="post">
 </form>
-<br/><br/>
 <div id="result"></div>
 </body>
 </html>

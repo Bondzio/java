@@ -51,36 +51,56 @@
 
 <body>
 <form name="form" method="post">
-	<div class="container">	
-		<div class="col-sm-10">
-	 		<h2> A Bot Reading Emails </h2>
-			<h4> Reading emails, analyzing personalities, retreiving insights for you. </h4>
+	<div class="container">
+		<div class="row">	
+			<div class="col-sm-9 col-xs-9">
+		 		<h2> A Bot Reading Emails </h2>
+				<h4> Reading emails, analyzing personalities, retreiving insights for you. </h4>
+		 	</div>
+		 	<div class="col-sm-3 col-xs-3">
+		 		<a href="./">
+		 		<img src="./resources/img/title.png" class="img-rounded" style="width:100%">
+		 		</a>
+		 	</div>
 	 	</div>
-	 	<div class="col-sm-2"><img src="./resources/img/title.png" class="img-rounded" style="width:100%"></div>
-		<div class="form-group row">
-			<div class="col-xs-3">
-	    		<label for="ex1">SENDER</label>
-	    		<input class="form-control" name="sender" type="text" value="bbk0529@gmail.com">
-	  		</div>
-	  		<div class="col-xs-2">
-	    		<label for="ex2">DATE</label>
-	    		<input class="form-control" name="date" type="date">
-	  		</div>
-		  	<div class="col-xs-7">
-	    		<label for="ex3">SUBJECT</label>
-		    	<input class="form-control" name="subject" type="text" value="untitle">
-	  		</div>
+	 	<div class="row">
+	 		<div class="col-sm-2"><a href="./"><img src="./resources/img/email.jpg" class="img-rounded" style="width:100%"></a></div>
+	 	<div class="col-sm-10">
+			<div class="row">
+				<div class="col-xs-4">
+		    		<label for="ex1">SENDER</label>
+		    		<input class="form-control" name="sender" type="text" value="bbk0529@gmail.com">
+		  		</div>
+		  		<div class="col-xs-4">
+		    		<label for="ex2">DATE</label>
+		    		<input class="form-control" name="date" type="date">
+		  		</div>
+		  		<div class="col-xs-4">
+		    		<label for="ex2">LANGUAGE</label>
+		    		<input class="form-control" name="language" type="text" value="ENGLISH ONLY" readonly>
+		  		</div>
+		  	</div>
+		  	<div class="row">
+			  	<div class="col-xs-12">
+			  		<br/>
+		    		<label for="ex3">SUBJECT</label>
+			    	<input class="form-control" name="subject" type="text" value="untitle">
+		  		</div>
+		  	</div>
+		</div>
 		</div>
 		<div class="form-group row">
 			<div class="col-xs-12">
+				<br/>
 				<label for="ex1">CONTENTS</label>
 				<textarea class="form-control col-sm-5" name="text" rows="10">Your email may be inserted herein.</textarea>
 			</div>
 		</div>
 		<div class="row">
-		<div class="col-sm-10"></div>
-		<div class="col-sm-1"><button id="submit" type="button" class="btn btn-default" onclick="javascript:history.back()"/>BACK</button></div>
-		<div class="col-sm-1"><a href="./"><button type="button" id="home" class="btn btn-default"/>HOME</button></a></div>	
+		<div class="col-sm-12" style="text-align: center;">
+			<button id="submit" type="button" class="btn btn-default" />SUBMIT</button>
+			<button type="button" class="btn btn-default" onclick="javascript:history.back()"/>BACK</button>
+			<a href="./"><button type="button" id="home" class="btn btn-default"/>HOME</button></a>
 		</div>
 	</div>
 </form>

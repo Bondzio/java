@@ -13,7 +13,9 @@ public class EmailVO implements Serializable {
 	public void setWordcount(int wordcount) {
 		this.wordcount = wordcount;
 	}
-	String sender,subject,text,	remark;
+	String sender,subject;
+	public String text;
+	String remark;
 	Date date;
 	String stringdate;
 	

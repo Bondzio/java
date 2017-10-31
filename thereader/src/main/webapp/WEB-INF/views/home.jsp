@@ -2,31 +2,62 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
+
+
 <!DOCTYPE html>
 <html>
 <head>
-<!-- meta 정보의 http-equiv content-type text/html 등이 지정되지 않을 경우
-문자열의 ?가 쿼리스트링에서 특수문자로 변경 -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="<c:url value=""/>" />
 <title>Insert title here</title>
 <link rel="shortcut icon" href="/favicon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="./resources/js/billboard.js"></script>
+<link rel="stylesheet" href="<c:url value=""/>" />
+<link rel="stylesheet" href="./resources/css/billboard.css">
 <script type="text/javascript">
+/* 
+$(document).ready(function(){
+	bb.generate({
+	    bindto: "#chart",
+	    data: {
+	        columns: [
+	            ["data1", 30, 200, 100, 170, 150, 250],
+	            ["data2", 130, 100, 140, 35, 110, 50]
+	        ],
+	        types: {
+	          data1: "line",
+	          data2: "area-spline"
+	        },
+	        colors: {
+	          data1: "red",
+	          data2: "green"
+	        }
+	    }
+	});
+}); */
+
 
 </script>
 
-</head>
-<body>
 
+</head>
+
+
+<body>
+<br/><br/><br/><br/>
 <div class="container">	
 <div class="row">
+	<div class="jumbotron">
 	<div class="col-sm-12">
- 		<center><h1>The Bot Reading Emails </h1></center>
+ 		<h1>The Bot Reading Emails </h1></center>
+ 		<p>Reading, Analyzing, and getting insights for you. </p>
+ 		<br/><br/>
  	</div> 
+ 	</div>
 	</div>
 </div>
 
@@ -35,33 +66,37 @@
 
 <div class="container">
 	
-	<div class="row">
-		<div class="col-sm-2"></div>
-		<div class="col-sm-8"><img src="./resources/img/title.png" class="img-rounded" style="width:100%"></div>
-	 	<div class="col-sm-2"></div>
-	</div>
+	<%-- <div class="row">
+		<div class="col-sm-3 col-xs-3"></div>
+		<div class="col-sm-6 col-xs-6"><center><img src="./resources/img/title.png" class="img-rounded" style="width:100%"></center></div>
+	 	<div class="col-sm-3 col-xs-3"></div>
+	</div> --%>
 
 	<div class="row">
-		<div class="col-sm-2"></div>
-		<div class="col-sm-2">
-			<a href="searchdata?keyword="><h3>Listing Email</h3>
+		<div class="col-sm-2 col-xs-2"></div>
+		<div class="col-sm-2 col-xs-2" style="text-align: center;">
+			<img src="./resources/img/database.jpg" class="img-rounded" style="width:100%">
+			<a href="searchdata?keyword="><h3>DATABASE</h3>
 			<p name="list">bbk0529@gmail.com</p></a>
 		</div>
-		<div class="col-sm-2">
-			<a href="insert"><h3>Manual Input</h3>
-			<p  name="insert">You may input manually to analyze</p></a>
+		<div class="col-sm-2 col-xs-2" style="text-align: center;">
+			<img src="./resources/img/input.jpg" style="width:100%">
+			<a href="insert"><h3>INPUT</h3>
+			<p  name="insert">Input emails manually</p></a>
 		</div>
-		<div class="col-sm-2">
-			<h3>Summary</h3>
-			<p  name="summary">Summary of Analyze</p>
+		<div class="col-sm-2 col-xs-2" style="text-align: center;">
+			<img src="./resources/img/import.jpg" class="img-rounded" style="width:100%">
+			<h3  >IMPORTING</h3>
+			<p  name="summary">Scrapping your emails</p>
 		</div>
-		<div class="col-sm-2">
-			<h3>Detail</h3>
-			<p  name="detail">Summary of Analyze</p>
-		</div>
-		<div class="col-sm-2"></div>
+		<div class="col-sm-2 col-xs-2" style="text-align: center;">
+			<img src="./resources/img/summary.jpg" class="img-rounded" style="width:100%">
+			<h3>SUMMARY</h3>
+			<p  name="detail">Summary of Analysis</p>
+		</div>		
 	</div>	
 </div>
 
+<div id="chart"></div>
 </body>
 </html>
